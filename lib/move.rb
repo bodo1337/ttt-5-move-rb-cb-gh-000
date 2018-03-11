@@ -8,6 +8,10 @@ end
 
 # code your input_to_index and move method here!
 
-def input_to_index(index)
-  index.to_i
+def input_to_index(input)
+  return input.to_i
+end
+
+def input_to_index(board, index, character)
+  board[index] = character
 end
